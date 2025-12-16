@@ -1,5 +1,5 @@
 {
-    "name": "gsanox/soap2rest",
+    "name": "gsanox/laravel-soap2rest",
     "description": "A Laravel package to act as a REST proxy for SOAP APIs.",
     "type": "laravel-package",
     "license": "MIT",
