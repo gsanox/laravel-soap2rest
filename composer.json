@@ -19,5 +19,12 @@
     },
     "require-dev": {
         "orchestra/testbench": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "gsanox\\Soap2Rest\\Providers\\Soap2RestServiceProvider"
+            ]
+        }
     }
 }
