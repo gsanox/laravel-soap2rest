@@ -10,11 +10,6 @@ use Illuminate\Support\Facades\Auth;
 
 class SoapRestController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth:sanctum');
-    }
-
     public function register(Request $request, RegistryService $registry)
     {
         $request->validate([
