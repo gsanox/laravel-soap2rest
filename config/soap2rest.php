@@ -10,7 +10,7 @@ return [
     | this to fit your application's routing structure.
     |
     */
-    'prefix' => 'api',
+    'prefix' => 'api/soap2rest',
 
     /*
     |--------------------------------------------------------------------------
