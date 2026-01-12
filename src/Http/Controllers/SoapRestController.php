@@ -19,7 +19,7 @@ class SoapRestController extends Controller
 
         $service = $registry->register(Auth::id(), $request->name, $request->wsdl);
 
-        return response()->json($service);
+        return response()->json($service, 201);
     }
 
     public function unregister(int $serviceId, RegistryService $registry)
